@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+}
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.label{
+    position: relative;
+    left: 28px;
+    bottom: 10px;
+
+}
+
+.card-yellow{
+    background-color: rgba(255, 209, 0, 1);
+    width: 350px;
+    height: 434px;
+    border-radius: 10px;
+    
+}
+
+.card{
+    background-color: white;
+    width: 350px;
+    height: 434px;
+    border-radius: 10px;
+    
+}
+
+.info-card{
+    margin-bottom: 20px;
+}
+
+.info-card-title{
+    color:  rgba(128, 128, 128, 1);
+    font-size:var(--font-size-info-card-title) ;
+}
+
+.info{
+    margin-left: 30px;
+}
+
+.example{
+    width: 170px;
+    height: 200px;
+}
+
+.img-title{
+    display: flex;
+    justify-content: center;
+}
+
+.bascet-info{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 70px;
+    border-radius: 0 20px 0 0;
+}
+
+.bascet img{
+    width: 50px;
+    height: 60px;
+}
+
+.price{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.number-bas{
+    font-weight: 500;
+    font-size: var(--font-size-bas);
+   color: var(--color-bas);
+}
+
+.number{
+    font-size: var(--font-size-number);
+    color:rgba(128, 128, 128, 1);
+    text-decoration: line-through;
+}
+
+:root {
+    --font-size-bas:  clamp(3rem, 2.5vw, 2rem);
+    --font-size-number: 18px;
+    --font-size-info-card-title:14px;
+    --color-bas: rgba(148, 27, 12, 1);
+}
